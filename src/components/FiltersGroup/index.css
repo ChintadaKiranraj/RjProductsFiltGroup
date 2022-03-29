@@ -1,0 +1,47 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+.list-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+.eachCategoryItem {
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: medium;
+  margin-bottom: 10px;
+}
+
+.rating-Image {
+  width: 50%;
+}
+.ratingUpto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 500;
+}
+
+.image-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.clear-filter-button {
+  color: blue;
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: blue;
+}
+/* Write your CSS here */
